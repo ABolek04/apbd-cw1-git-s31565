@@ -10,6 +10,9 @@ public class Program
         Console.WriteLine(s.Name);
         Student s2 = new Student(15,"Adam2");
         Console.WriteLine(s2.ID);
+        
+        int[] values = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        Console.WriteLine(CalculateMin(values));
     }
     public static double CalculateAverage(int[] values)
     {
