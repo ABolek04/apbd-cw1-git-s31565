@@ -23,6 +23,11 @@ public class Program
     {
         return.values.Max();
     }
+
+    public static int CalculateMin(int[] values)
+    {
+        
+    }
 }
 
 
