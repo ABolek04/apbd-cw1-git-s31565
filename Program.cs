@@ -11,6 +11,11 @@ public class Program
         Student s2 = new Student(15,"Adam2");
         Console.WriteLine(s2.ID);
     }
+    public static double CalculateAverage(int[] values)
+    {
+        return values.Average();
+    }
 }
+
 
 
