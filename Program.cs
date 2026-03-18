@@ -21,12 +21,12 @@ public class Program
 
     public static int CalculateMax(int[] values)
     {
-        return.values.Max();
+        return values.Max();
     }
 
     public static int CalculateMin(int[] values)
     {
-        
+        return values.Min();
     }
 }
 
